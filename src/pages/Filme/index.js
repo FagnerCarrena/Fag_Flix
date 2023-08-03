@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import {  useParams, useNavigate, json} from 'react-router-dom'
 import api from '../../services/api'
 import './style.css'
+import{toast} from 'react-toastify'
 
 //ciclo de vida pois o useefect montar o componente inicia a vida do compornente
 
@@ -48,12 +49,12 @@ let filmesSalvos = JSON.parse(minhaLista) || [];
 const hasFilmes = filmesSalvos.some((filmesSalvo)=> filmesSalvo.id === filme.id)
 
 if(hasFilmes){
-alert("filme ja foi salvo seu sacana")
+toast.warning("Esse filme já esta na sua lista")
 return;
 }
 filmesSalvos.push(filme);
 localStorage.setItem("@fagFlix", JSON.stringify(filmesSalvos));
-alert("filme salvo com sudecco")
+toast.success("Filme salvo com sucesso!")
 
 }
 
