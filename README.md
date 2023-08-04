@@ -11,7 +11,7 @@ O projeto consiste na criação em uma aplicação em React, fazendo a integraç
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [React.js](https://react.dev//)
-- [React-toastify](<(https://react.dev//)>)
+- [React-toastify](https://react.dev//)
 
 ---
 
