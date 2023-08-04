@@ -1,6 +1,7 @@
 # MovieFlix
 
 ---
+![Fagflix](https://github.com/FagnerCarrena/Fag_Flix/assets/104034694/329608c3-738c-4fb4-b467-1e9090573b1c)
 
 ## 👌Sobre
 
