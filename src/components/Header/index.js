@@ -6,8 +6,8 @@ function Header(){
 return(
 
     <header>
-        <Link className='logo' to="/">Fag Flix</Link>
-        <Link className='favoritos' to="/favoritos">Meus favoritos</Link>
+        <Link className='logo' to="/">FagFlix</Link>
+        <Link className='favoritos' to="/favoritos">Meus Favoritos</Link>
     </header>
 )
 
